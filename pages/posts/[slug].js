@@ -48,7 +48,7 @@ export default function PostPage({
             {frontMatter.title}
           </h1>
           {frontMatter.description && (
-            <p className="text-l mb-8 dark:text-gray-200 text-center">
+            <p className="text-l mb-8 text-gray-750 dark:text-gray-200 text-center">
               {frontMatter.description}
             </p>
           )}
